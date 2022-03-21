@@ -73,4 +73,8 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+
+.container {
+  max-width: 1170px;
+}
 /*# sourceMappingURL=style.css.map */
