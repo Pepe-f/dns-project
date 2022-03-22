@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DNS - интернет магазин цифровой и бытовой техники</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -13,7 +15,7 @@
         <div class="container">
           <div class="header-topbar__wraper">
             <div class="header-topbar__left">
-              <a href="tel: 88007707999" class="header-topbar__contact"
+              <a href="tel: 88007707999" class="header-topbar__phone"
                 ><img
                   class="header-topbar__icon"
                   src="img/header-phone.svg"
@@ -21,7 +23,7 @@
                 />8-800-77-07-999</a
               >
 
-              <a href="mailto: dns-shop@mail.ru" class="header-topbar__contact"
+              <a href="mailto: dns-shop@mail.ru" class="header-topbar__mail"
                 ><img
                   class="header-topbar__icon"
                   src="img/header-mail.svg"
@@ -47,9 +49,196 @@
           <!-- /.header-topbar__wraper -->
         </div>
       </div>
+
+      <div class="header-main">
+        <div class="container">
+          <div class="header-main__wraper">
+            <a href="#" class="logo">dns</a>
+            <form action="#" class="search">
+              <input
+                type="text"
+                class="search__input"
+                placeholder="Поиск по сайту"
+              />
+              <button class="search__button">
+                <img src="img/search.svg" alt="Icon: search" />
+              </button>
+            </form>
+
+            <a href="#" class="header-main__link">
+              <img
+                src="img/like.svg"
+                alt="Icon: Like"
+                class="header-main__icon"
+              />
+              <div class="header-main__text">
+                <span class="header-main__name">Избранное</span>
+                <span class="header-main__count">10</span>
+              </div>
+            </a>
+            <a href="#" class="header-main__link">
+              <img
+                src="img/cart.svg"
+                alt="Icon: Cart"
+                class="header-main__icon"
+              />
+              <div class="header-main__text">
+                <span class="header-main__name">Корзина</span>
+                <span class="header-main__count">9990₽</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /.header-main -->
+
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar__list">
+            <li>
+              <img
+                class="navbar__icon"
+                src="img/list-menu.svg"
+                alt="Icon: List-menu"
+              />
+              <span class="navbar__name">Категории</span>
+              <ul class="navbar__sublist">
+                <li><a href="#" class="navbar__link">Компьютеры</a></li>
+                <li>
+                  <a href="#" class="navbar__link">Смартфоны и гаджеты</a>
+                </li>
+                <li><a href="#" class="navbar__link">ТВ и мультимедиа</a></li>
+                <li><a href="#" class="navbar__link">Офис и сеть</a></li>
+                <li><a href="#" class="navbar__link">Аксессуары</a></li>
+                <li><a href="#" class="navbar__link">Бытовая техника</a></li>
+                <li><a href="#" class="navbar__link">Автотовары</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
+    <section class="banner">
+      <div class="container">
+        <div class="banner-wrapper">
+          <h1 class="banner__title">Новая эра смартфонов</h1>
+          <h2 class="banner__price">119990₽</h2>
+          <span class="banner__name">Apple Iphone 13</span>
+          <button class="banner__button">Купить сейчас</button>
+          <img
+            src="img/banner-product.png"
+            alt="Iphone 13"
+            class="banner__product"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h1 class="categories__title">Популярные категории</h1>
+        <div class="categories-wrapper">
+          <div class="categories__item">
+            <img
+              src="img/categorie-1.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Смартфоны</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-2.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Компьютеры</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-3.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Гаджеты</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-4.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Видеоигры и консоли</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-5.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Аксессуары</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-5.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Аксессуары</span>
+          </div>
+          <div class="categories__item">
+            <img
+              src="img/categorie-5.png"
+              alt=""
+              class="categories__image"
+            /><span class="categories__name">Аксессуары</span>
+          </div>
+        </div>
+        <a href="#" class="categories__link">Полный каталог</a>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper offer-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <h3 class="offer__categorie">Ноутбуки</h3>
+              <h1 class="offer__name">MacBook Air 13</h1>
+              <p class="offer__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem quaerat necessitatibus sed minus provident nemo?
+              </p>
+              <button class="offer__button">Исследовать</button>
+              <img src="img/banner-product-2.png" alt="" class="offer__image" />
+            </div>
+            <div class="swiper-slide">
+              <h3 class="offer__categorie">Ноутбуки</h3>
+              <h1 class="offer__name">MacBook Air 13</h1>
+              <p class="offer__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem quaerat necessitatibus sed minus provident nemo?
+              </p>
+              <button class="offer__button">Исследовать</button>
+              <img src="img/banner-product-2.png" alt="" class="offer__image" />
+            </div>
+            <div class="swiper-slide">
+              <h3 class="offer__categorie">Ноутбуки</h3>
+              <h1 class="offer__name">MacBook Air 13</h1>
+              <p class="offer__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem quaerat necessitatibus sed minus provident nemo?
+              </p>
+              <button class="offer__button">Исследовать</button>
+              <img src="img/banner-product-2.png" alt="" class="offer__image" />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
     <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
