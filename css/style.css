@@ -339,9 +339,6 @@ body {
 
 .banner {
   position: relative;
-  background-image: url(../img/banner-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
   padding: 60px 0 80px;
 }
 
@@ -443,12 +440,6 @@ body {
 .categories__name {
   font-size: 16px;
   font-weight: 300;
-}
-
-.offer {
-  background-image: url(../img/banner-bg-2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .offer-wrapper {
